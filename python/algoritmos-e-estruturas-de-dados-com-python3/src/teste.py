@@ -33,3 +33,25 @@ def eh_par(numero):
     return False
 
 print(eh_par(100))
+
+lista = [100, 200, 300]
+
+for i in range(len(lista)):
+    print(i, " - ", lista[i])
+
+#orientação a objeto
+class Pessoa:
+    def __init__(self, nome, idade):
+        self.nome = nome
+        self.idade = idade
+    
+    def obterNome(self):
+        return self.nome
+    
+    def obterIdade(self):
+        return self.idade
+
+p = Pessoa("daniel", 47)
+
+print("Nome: %s" % p.obterNome())
+print("Idade: %d" % p.obterIdade())
