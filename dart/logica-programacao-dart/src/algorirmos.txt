@@ -1,0 +1,20 @@
+algoritmo ir_trabalho
+
+esperar onibus;
+se o onibus for o numero 255
+    entrar no onibus
+se nao for
+    aguardar proximo onibus
+
+algoritmo beber
+ir ao bar;
+pedir a cerveja;
+beber;
+
+
+algoritmo marcos
+
+abrir programa da emprewsa;
+abiri bloco de notas;
+abrir navegador;
+
